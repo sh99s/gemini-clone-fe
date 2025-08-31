@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="geminiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34a853;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbc05;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="url(#geminiGradient)"/>
+  
+  <!-- Gemini constellation pattern -->
+  <g fill="white" opacity="0.9">
+    <!-- Twin stars representing Gemini -->
+    <circle cx="11" cy="10" r="2"/>
+    <circle cx="21" cy="10" r="2"/>
+    
+    <!-- Connecting constellation lines -->
+    <path d="M11 12 L16 16 L21 12" stroke="white" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M16 16 L16 22" stroke="white" stroke-width="1.5" fill="none" opacity="0.7"/>
+    
+    <!-- Additional stars -->
+    <circle cx="16" cy="16" r="1.5"/>
+    <circle cx="16" cy="22" r="1.5"/>
+    <circle cx="8" cy="20" r="1"/>
+    <circle cx="24" cy="20" r="1"/>
+  </g>
+</svg>
